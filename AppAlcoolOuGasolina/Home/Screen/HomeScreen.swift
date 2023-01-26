@@ -8,7 +8,17 @@
 import Foundation
 import UIKit
 
+protocol HomeScreenDelegate: AnyObject {
+    func tappedStartButton()
+}
+
 class HomeScreen: UIView {
+    
+    private weak var delegate: HomeScreenDelegate?
+    
+    public func delegate(delegate: HomeScreenDelegate){
+        self.delegate = delegate
+    }
     
     lazy var backgroundImageView: UIImageView = {
         let image = UIImageView()
@@ -26,15 +36,16 @@ class HomeScreen: UIView {
         return image
     }()
     
-    lazy var startButtom: UIButton = {
+    lazy var startButton: UIButton = {
         let button = UIButton()
         button.translatesAutoresizingMaskIntoConstraints = false
         button.setTitle("Começar", for: .normal)
-        button.titleLabel?.font = UIFont.systemFont(ofSize: 14)
+        button.titleLabel?.font = UIFont.systemFont(ofSize: 16, weight: .bold)
         button.setTitleColor(.white, for: .normal)
         button.clipsToBounds = true
         button.layer.cornerRadius = 8
         button.backgroundColor = UIColor(red: 230/255, green: 0/255, blue: 127/255, alpha: 1.0)
+        button.addTarget(self, action: #selector(tappedStartButton), for: .touchUpInside)
         return button
     }()
     
@@ -52,7 +63,7 @@ extension HomeScreen {
     private func setup(){
         addSubview(backgroundImageView)
         addSubview(logoAppImageView)
-        addSubview(startButtom)
+        addSubview(startButton)
         
         setupBackgroundImageView()
         setupLogoAppImageView()
@@ -69,10 +80,10 @@ extension HomeScreen {
     
     private func setupStartButton(){
         NSLayoutConstraint.activate([
-            startButtom.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -125),
-            startButtom.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 60),
-            startButtom.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -60),
-            startButtom.heightAnchor.constraint(equalToConstant: 44)
+            startButton.bottomAnchor.constraint(equalTo: safeAreaLayoutGuide.bottomAnchor, constant: -125),
+            startButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 60),
+            startButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -60),
+            startButton.heightAnchor.constraint(equalToConstant: 44)
         ])
     }
     
@@ -83,5 +94,12 @@ extension HomeScreen {
             backgroundImageView.trailingAnchor.constraint(equalTo: trailingAnchor),
             backgroundImageView.bottomAnchor.constraint(equalTo: bottomAnchor),
         ])
+    }
+}
+
+// MARK: Actions
+extension HomeScreen {
+    @objc func tappedStartButton(_ sender: Any?){
+        delegate?.tappedStartButton()
     }
 }
