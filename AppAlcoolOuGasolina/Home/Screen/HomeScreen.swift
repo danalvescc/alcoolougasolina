@@ -72,7 +72,7 @@ extension HomeScreen {
     
     private func setupLogoAppImageView(){
         NSLayoutConstraint.activate([
-            logoAppImageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 20),
+            logoAppImageView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 104),
             logoAppImageView.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 20),
             logoAppImageView.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -20)
         ])
