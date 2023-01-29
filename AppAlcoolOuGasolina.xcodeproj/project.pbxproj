@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F4738C342985F99600C6D868 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738C332985F99600C6D868 /* Alert.swift */; };
 		F4C559C42981CDD9000DDBBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C559C32981CDD9000DDBBB /* AppDelegate.swift */; };
 		F4C559C62981CDD9000DDBBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C559C52981CDD9000DDBBB /* SceneDelegate.swift */; };
 		F4C559C82981CDD9000DDBBB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C559C72981CDD9000DDBBB /* HomeVC.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F4738C332985F99600C6D868 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		F4C559C02981CDD9000DDBBB /* AppAlcoolOuGasolina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAlcoolOuGasolina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C559C32981CDD9000DDBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C559C52981CDD9000DDBBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F4738C322985F75F00C6D868 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				F4738C332985F99600C6D868 /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		F4C559B72981CDD9000DDBBB = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		F4C559C22981CDD9000DDBBB /* AppAlcoolOuGasolina */ = {
 			isa = PBXGroup;
 			children = (
+				F4738C322985F75F00C6D868 /* Alert */,
 				F4C559DB29835FB6000DDBBB /* Calculator */,
 				F4C559D72981D38A000DDBBB /* Home */,
 				F4C559C32981CDD9000DDBBB /* AppDelegate.swift */,
@@ -181,6 +192,7 @@
 				F4C559C42981CDD9000DDBBB /* AppDelegate.swift in Sources */,
 				F4C559C62981CDD9000DDBBB /* SceneDelegate.swift in Sources */,
 				F4C559E029836013000DDBBB /* CalculatorScreen.swift in Sources */,
+				F4738C342985F99600C6D868 /* Alert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
