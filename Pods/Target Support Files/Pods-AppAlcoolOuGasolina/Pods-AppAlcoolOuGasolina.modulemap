@@ -1,0 +1,6 @@
+framework module Pods_AppAlcoolOuGasolina {
+  umbrella header "Pods-AppAlcoolOuGasolina-umbrella.h"
+
+  export *
+  module * { export * }
+}
