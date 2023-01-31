@@ -43,21 +43,23 @@ class CalculatorVC: UIViewController {
 
 extension CalculatorVC: CalcuulatorScreenDelegate{
     func tappedCalculateButton() {
-        navigationController?.pushViewController(ResultVC(), animated: true)
-        
-//        if validateTextField() {
-//            let formatter = NumberFormatter()
-//            formatter.numberStyle = .decimal
-//            
-//            let ethanolPrice = (formatter.number(from: screen?.ethanolPriceTextField.text ?? "0.0") as? Decimal ?? 0.0)
-//            let gasPrice = (formatter.number(from: screen?.ethanolPriceTextField.text ?? "0.0") as? Decimal ?? 0.0)
-//            
-//            if ethanolPrice / gasPrice > 0.7 {
-////                navigationController?.pushViewController(CalculatorVC(bestPrice:"gas"), animated: true)
-//            } else {
-////                navigationController?.pushViewController(CalculatorVC(bestPrice:"ethanol"), animated: true)
-//            }
-//        }
+        if validateTextField() {
+            let formatter = NumberFormatter()
+            formatter.numberStyle = .decimal
+            
+            let ethanolPrice = (formatter.number(from: screen?.ethanolPriceTextField.text ?? "0.0") as? Double) ?? 0.0
+            let gasPrice = (formatter.number(from: screen?.gasPriceTextField.text ?? "0.0") as? Double) ?? 0.0
+            
+            var vc: ResultVC?
+            if ethanolPrice / gasPrice > 0.7 {
+                vc = ResultVC(bestFuel: .gas)
+                print("gas")
+            } else {
+                print("Alcool")
+                vc = ResultVC(bestFuel: .ethanol)
+            }
+            navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
+        }
     }
     
     func tappedBackButon() {
