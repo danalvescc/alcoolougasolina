@@ -11,6 +11,7 @@
 		F4738C3D298894D300C6D868 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738C3C298894D200C6D868 /* ResultVC.swift */; };
 		F4738C402988952E00C6D868 /* ResultScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738C3F2988952E00C6D868 /* ResultScreen.swift */; };
 		F4738C432988AC2900C6D868 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738C422988AC2900C6D868 /* UIViewController+Extension.swift */; };
+		F4738C452988B6CE00C6D868 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738C442988B6CE00C6D868 /* UITextField+Extension.swift */; };
 		F4C559C42981CDD9000DDBBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C559C32981CDD9000DDBBB /* AppDelegate.swift */; };
 		F4C559C62981CDD9000DDBBB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C559C52981CDD9000DDBBB /* SceneDelegate.swift */; };
 		F4C559C82981CDD9000DDBBB /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C559C72981CDD9000DDBBB /* HomeVC.swift */; };
@@ -26,6 +27,7 @@
 		F4738C3C298894D200C6D868 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
 		F4738C3F2988952E00C6D868 /* ResultScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultScreen.swift; sourceTree = "<group>"; };
 		F4738C422988AC2900C6D868 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		F4738C442988B6CE00C6D868 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
 		F4C559C02981CDD9000DDBBB /* AppAlcoolOuGasolina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAlcoolOuGasolina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C559C32981CDD9000DDBBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C559C52981CDD9000DDBBB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				F4738C422988AC2900C6D868 /* UIViewController+Extension.swift */,
+				F4738C442988B6CE00C6D868 /* UITextField+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				F4C559C82981CDD9000DDBBB /* HomeVC.swift in Sources */,
 				F4738C402988952E00C6D868 /* ResultScreen.swift in Sources */,
 				F4C559C42981CDD9000DDBBB /* AppDelegate.swift in Sources */,
+				F4738C452988B6CE00C6D868 /* UITextField+Extension.swift in Sources */,
 				F4C559C62981CDD9000DDBBB /* SceneDelegate.swift in Sources */,
 				F4C559E029836013000DDBBB /* CalculatorScreen.swift in Sources */,
 				F4738C432988AC2900C6D868 /* UIViewController+Extension.swift in Sources */,

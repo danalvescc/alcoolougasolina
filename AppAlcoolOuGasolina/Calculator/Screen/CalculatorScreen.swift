@@ -44,6 +44,7 @@ class CalculatorScreen: UIView {
         textField.borderStyle = .roundedRect
         textField.placeholder = "Preço do Álcool"
         textField.keyboardType = .decimalPad
+        textField.addDoneButtonOnKeyBoard()
         return textField
     }()
     
@@ -56,6 +57,7 @@ class CalculatorScreen: UIView {
         textField.borderStyle = .roundedRect
         textField.placeholder = "Preço do Gasolina"
         textField.keyboardType = .decimalPad
+        textField.addDoneButtonOnKeyBoard()
         return textField
     }()
     
