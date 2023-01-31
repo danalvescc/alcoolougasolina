@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "06FB3078-69EB-4083-8136-7B22503FD7FB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F0BF4DC6-DD73-4C85-88D6-A8862E166CA9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppAlcoolOuGasolina/Calculator/CalculatorVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "tappedCalculateButton()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F0BF4DC6-DD73-4C85-88D6-A8862E166CA9 - 8649fdd6575ce884"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppAlcoolOuGasolina.CalculatorVC.tappedCalculateButton() -&gt; ()"
+                  moduleName = "AppAlcoolOuGasolina"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielalvesbarreto/Code/AppAlcoolOuGasolina/AppAlcoolOuGasolina/Calculator/CalculatorVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "185">
+               </Location>
+               <Location
+                  uuid = "F0BF4DC6-DD73-4C85-88D6-A8862E166CA9 - 8649fdd6575ce884"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppAlcoolOuGasolina.CalculatorVC.tappedCalculateButton() -&gt; ()"
+                  moduleName = "AppAlcoolOuGasolina"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielalvesbarreto/Code/AppAlcoolOuGasolina/AppAlcoolOuGasolina/Calculator/CalculatorVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "781">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2863013D-B1ED-46B9-84B2-A7EA591DD89C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppAlcoolOuGasolina/Calculator/CalculatorVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "tappedCalculateButton()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2863013D-B1ED-46B9-84B2-A7EA591DD89C - 8649fdd6575ce863"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppAlcoolOuGasolina.CalculatorVC.tappedCalculateButton() -&gt; ()"
+                  moduleName = "AppAlcoolOuGasolina"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielalvesbarreto/Code/AppAlcoolOuGasolina/AppAlcoolOuGasolina/Calculator/CalculatorVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "1679">
+               </Location>
+               <Location
+                  uuid = "2863013D-B1ED-46B9-84B2-A7EA591DD89C - 8649fdd6575ce863"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AppAlcoolOuGasolina.CalculatorVC.tappedCalculateButton() -&gt; ()"
+                  moduleName = "AppAlcoolOuGasolina"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/danielalvesbarreto/Code/AppAlcoolOuGasolina/AppAlcoolOuGasolina/Calculator/CalculatorVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "2320">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A6B76C6E-3EAE-479B-A699-D75068862262"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AppAlcoolOuGasolina/Calculator/CalculatorVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "tappedCalculateButton()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
